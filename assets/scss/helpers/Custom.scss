@@ -1,0 +1,16 @@
+// Custom.scss
+
+// Add your custom colors
+$custom-colors: (
+  "custom-blue": #1e90ff,
+  "custom-green": #32cd32
+);
+
+// Merge the custom colors with the theme colors
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Import all of Bootstrap
+// @import "bootstrap/scss/bootstrap";
+// @import "/node_modules/bootstrap/scss/bootstrap.scss"
+
+// You can add additional custom styles here
